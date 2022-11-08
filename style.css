@@ -1,0 +1,59 @@
+@import "/fonts.css";
+
+body {
+  text-align: center;
+  font-family: Happy Monkey, cursive;
+}
+
+.calculator {
+  /* border: 1px solid black; */
+  max-width: fit-content;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px #969595;
+}
+
+.input-area {
+  height: 60px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.input-area textarea {
+  max-height: 100%;
+  min-height: 100%;
+  max-width: fit-content;
+  min-width: 100%;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.button {
+  height: 60px;
+  width: 60px;
+  margin: 3px;
+  font-size: 1.5rem;
+  background: #f57446;
+  text-shadow: 0 0 1px black;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.button:last-child,
+.panel-4 .button {
+  color: #fff;
+  background: #383838;
+}
+
+.button-equal {
+  width: 130px;
+}
+
+.button:active {
+  background: #f34505;
+}
