@@ -1,14 +1,23 @@
 @import "/fonts.css";
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   text-align: center;
   font-family: Happy Monkey, cursive;
 }
 
+h1 {
+  font-size: 2rem;
+  margin: 1rem auto;
+}
+
 .calculator {
-  /* border: 1px solid black; */
   max-width: fit-content;
-  margin: auto;
+  margin: 1rem auto;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 0 8px #969595;
@@ -56,4 +65,31 @@ body {
 
 .button:active {
   background: #f34505;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 10px;
+  font-size: 1.1rem;
+  color: #2b2a2a;
+  font-weight: bold;
+}
+
+.cil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-top: 5px auto;
+}
+
+.cil li {
+  margin: 10px;
+}
+
+.cil a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
